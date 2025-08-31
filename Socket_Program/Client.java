@@ -10,6 +10,7 @@ public class Client {
     private DataOutputStream out = null;
 
     public Client(String addr, int port) {
+        
         try {
             s = new Socket(addr, port);
             System.out.println("Connected");
