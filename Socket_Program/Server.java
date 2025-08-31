@@ -18,6 +18,7 @@ public class Server {
 
             System.out.println("Waiting for a client ...");
 
+            
             s = ss.accept();
             System.out.println("Client accepted");
 
