@@ -9,7 +9,7 @@ public class EchoServer {
             System.out.println("Waiting for Client");
             ServerSocket ss = new ServerSocket(7896);
             Socket soc = ss.accept();
-            System.out.println("Connection established");
+            System.out.println("Connection established Sucessful");
 
             ss.close();
             soc.close();
