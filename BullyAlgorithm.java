@@ -2,6 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 // Class representing a node in the distributed system
 class Node {
     private int nodeId;
