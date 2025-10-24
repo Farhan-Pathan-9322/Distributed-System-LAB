@@ -13,6 +13,7 @@ class Node {
         this.isCoordinator = false;
     }
 
+    
     public int getNodeId() {
         return nodeId;
     }
